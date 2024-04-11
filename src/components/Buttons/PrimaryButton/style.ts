@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
-export const ButtonWrapper = styled.button<{ isFill: boolean; size: string }>`
-  width: ${({ size }) => size};
+export const ButtonWrapper = styled.button<{ isFill: boolean; width: string }>`
+  width: ${({ width }) => width};
   height: 4.3125rem;
   background-color: ${({ isFill }) => (isFill ? '#ffffff' : 'transparent')};
   font-size: 1.5rem;
