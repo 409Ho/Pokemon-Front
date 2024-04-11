@@ -2,8 +2,10 @@
 
 import { ButtonHTMLAttributes, DetailedHTMLProps } from 'react';
 
+import * as S from './style';
+
 const Button: React.FC<
   DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement>
-> = ({ children }) => <button>{children}</button>;
+> = ({ children }) => <S.Dlwjddn>{children}</S.Dlwjddn>;
 
 export default Button;
