@@ -23,7 +23,6 @@ export const InputWrapper = styled.input<{ width: string }>`
   font-size: 0.9375rem;
   border-radius: 0.75rem;
   padding: 0 0.9375rem 0 1.625rem;
-  border: 1px solid black;
 
   :focus {
     outline: none;
