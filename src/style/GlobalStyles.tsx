@@ -33,6 +33,11 @@ export const GlobalStyles = () => (
           sans-serif;
         box-sizing: border-box;
       }
+
+      button {
+        box-sizing: border-box;
+        cursor: pointer;
+      }
     `}
   />
 );
