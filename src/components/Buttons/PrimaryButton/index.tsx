@@ -10,15 +10,15 @@ interface PrimaryButtonProps
     HTMLButtonElement
   > {
   isFill: boolean;
-  size: string;
+  width: string;
 }
 
 const PrimaryButton: React.FC<PrimaryButtonProps> = ({
   isFill,
-  size,
+  width,
   children,
 }) => (
-  <S.ButtonWrapper isFill={isFill} size={size}>
+  <S.ButtonWrapper isFill={isFill} width={width}>
     {children}
   </S.ButtonWrapper>
 );
