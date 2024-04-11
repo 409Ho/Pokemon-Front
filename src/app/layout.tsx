@@ -1,3 +1,4 @@
+import { GlobalStyles } from '@/style';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -11,7 +12,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="ko">
+      <GlobalStyles />
       <body>{children}</body>
     </html>
   );
