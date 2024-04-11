@@ -2,7 +2,6 @@ import styled from '@emotion/styled';
 
 export const ContentWrapper = styled.div`
   width: fit-content;
-  background-color: red;
 `;
 
 export const InputTitle = styled.p`
