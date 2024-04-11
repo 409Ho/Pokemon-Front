@@ -12,7 +12,7 @@ type Story = StoryObj<typeof PrimaryButton>;
 export const Primary: Story = {
   args: {
     isFill: true,
-    size: '29.9375rem',
+    width: '29.9375rem',
     children: '로그인',
   },
 };
