@@ -11,7 +11,7 @@ export const HamburgerIcon = () => (
     <path
       d="M6.875 12.375H37.125M6.875 22H37.125M6.875 31.625H37.125"
       stroke="black"
-      stroke-width="2"
+      strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
