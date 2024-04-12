@@ -1,8 +1,8 @@
 import styled from '@emotion/styled';
 
 export const ModalWrapper = styled.div`
-  width: 264px;
-  height: 258px;
+  width: 16.5rem;
+  height: 16.125rem;
   display: inline-flex;
   flex-direction: column;
   gap: 1.25rem;
@@ -13,7 +13,7 @@ export const ModalWrapper = styled.div`
   background-color: #ffffff;
   border-radius: 1.5rem;
   border: none;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0.25rem 0.625rem rgba(0, 0, 0, 0.3);
 `;
 
 export const ModalList = styled.span`

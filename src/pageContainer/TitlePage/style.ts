@@ -6,7 +6,7 @@ export const PageWrapper = styled.div`
 `;
 
 export const ContentWrapper = styled.div`
-  width: 600px;
+  width: 37.5rem;
   height: 100%;
   background-color: red;
   margin: 0 auto;
@@ -24,8 +24,8 @@ export const TitlePageContent = styled.div`
 `;
 
 export const TItleImageWrapper = styled.div`
-  width: 439px;
-  height: 400px;
+  width: 27.4375rem;
+  height: 25rem;
   position: relative;
   margin: 13.5625rem 4rem 9.5625rem 6.0625rem;
 `;
