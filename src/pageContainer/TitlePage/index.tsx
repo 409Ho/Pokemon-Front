@@ -16,27 +16,25 @@ const TitlePage = () => {
   const handleModal = () => setIsModalOpen(prev => !prev);
 
   return (
-    <>
-      <S.PageWrapper>
-        <S.ContentWrapper>
-          {isModalOpen && <HamburgerModal handleModal={handleModal} />}
-          <Header handleModal={handleModal} />
-          <S.TitlePageContent>
-            <S.TItleImageWrapper>
-              <Image src={리자몽} alt="타이틀 이미지" fill />
-            </S.TItleImageWrapper>
-            <S.ButtonWrapper>
-              <PrimaryButton isFill={true} width="29.9375rem">
-                로그인
-              </PrimaryButton>
-              <PrimaryButton isFill={false} width="29.9375rem">
-                회원가입
-              </PrimaryButton>
-            </S.ButtonWrapper>
-          </S.TitlePageContent>
-        </S.ContentWrapper>
-      </S.PageWrapper>
-    </>
+    <S.PageWrapper>
+      <S.ContentWrapper>
+        {isModalOpen && <HamburgerModal handleModal={handleModal} />}
+        <Header handleModal={handleModal} />
+        <S.TitlePageContent>
+          <S.TItleImageWrapper>
+            <Image src={리자몽} alt="타이틀 이미지" fill />
+          </S.TItleImageWrapper>
+          <S.ButtonWrapper>
+            <PrimaryButton isFill={true} width="29.9375rem">
+              로그인
+            </PrimaryButton>
+            <PrimaryButton isFill={false} width="29.9375rem">
+              회원가입
+            </PrimaryButton>
+          </S.ButtonWrapper>
+        </S.TitlePageContent>
+      </S.ContentWrapper>
+    </S.PageWrapper>
   );
 };
 
