@@ -7,7 +7,7 @@ export const PageWrapper = styled.div`
 
 export const ContentWrapper = styled.div`
   width: 37.5rem;
-  height: 100%;
+  height: 100vh;
   background-color: red;
   margin: 0 auto;
   display: flex;
