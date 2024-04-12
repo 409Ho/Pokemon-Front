@@ -8,7 +8,7 @@ import pokeLogo from '@/asset/png/PokemonQuizLogo.png';
 import * as S from './style';
 
 interface HeaderProps {
-  handleModal: () => void;
+  handleModal?: () => void;
 }
 
 const Header: React.FC<HeaderProps> = ({ handleModal }) => (
