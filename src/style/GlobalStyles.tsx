@@ -8,7 +8,19 @@ export const GlobalStyles = () => (
     styles={css`
       ${emotionReset}
 
-      html,body,* {
+      html {
+        background-color: #f7e6d5;
+      }
+
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+      }
+
+      html,
+      body,
+      * {
         margin: 0;
         padding: 0;
       }
