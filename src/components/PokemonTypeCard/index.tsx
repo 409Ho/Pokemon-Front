@@ -5,7 +5,11 @@ import { PokemonType } from '@/types';
 import * as I from '@/asset';
 import * as S from './style';
 
-type PokemonTypeCardProps = PokemonType;
+interface PokemonTypeCardProps {
+  type: PokemonType;
+  useFilter?: boolean;
+  sizeDown?: boolean;
+}
 
 const typeObj: { [key: string]: JSX.Element } = {
   강철: <I.강철타입 />,
@@ -28,8 +32,12 @@ const typeObj: { [key: string]: JSX.Element } = {
   풀: <I.풀타입 />,
 };
 
-const PokemonTypeCard: React.FC<PokemonTypeCardProps> = ({ type }) => (
-  <S.TypeCardWrapper type={type}>
+const PokemonTypeCard: React.FC<PokemonTypeCardProps> = ({
+  type,
+  sizeDown,
+  useFilter,
+}) => (
+  <S.TypeCardWrapper styleInfo={{ type, sizeDown, useFilter }}>
     {typeObj[type]}
     <p>{type}</p>
   </S.TypeCardWrapper>
