@@ -11,6 +11,7 @@ export const PokemonCartWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 1.6875rem;
+  cursor: pointer;
 `;
 export const PokemonTitleWrapper = styled.div`
   width: 100%;
@@ -27,8 +28,8 @@ export const PokemonNameWrapper = styled.div`
 `;
 
 export const PokemonBallImgWrapper = styled.div`
-  width: 28px;
-  height: 25px;
+  width: 1.75rem;
+  height: 1.5625rem;
   overflow: hidden;
   position: relative;
 `;
