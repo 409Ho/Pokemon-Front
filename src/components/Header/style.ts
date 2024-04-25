@@ -5,6 +5,7 @@ export const HeaderWrapper = styled.div`
   height: 6.25rem;
   background-color: #fff;
   padding: 1.75rem 2rem 1.75rem 1.5rem;
+  border-bottom: 1px solid #dfdfdf;
 `;
 
 export const ContentWrapper = styled.div`
