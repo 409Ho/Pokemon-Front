@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 export const SignInPageWrapper = styled.div`
   margin: 0 auto;
-  width: 600px;
+  width: 37.5rem;
   height: 100vh;
   background-color: #ff0000;
   display: flex;
@@ -18,5 +18,5 @@ export const ButtonWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 1.5625rem;
-  margin: 263px 0 21rem 0;
+  margin: 16.4375rem 0 21rem 0;
 `;

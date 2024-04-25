@@ -41,7 +41,7 @@ export const TypeCardWrapper = styled.div<{ styleInfo: StyleProps }>`
   padding-left: 0.25rem;
   font-size: 0.9375rem;
   background-color: ${({ styleInfo }) => typeColor[styleInfo.type]};
-  cursor: ${({ styleInfo }) => styleInfo.useFilter && 'hover'};
+  cursor: ${({ styleInfo }) => styleInfo.useFilter && 'pointer'};
   svg {
     fill: #ffffff;
   }

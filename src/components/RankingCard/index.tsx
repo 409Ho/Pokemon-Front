@@ -25,7 +25,12 @@ const RankingCard: React.FC<RankingCardPros> = ({
     <S.CardContainer>
       <S.ProfileWrapper>
         <S.ProfileImgWrapper>
-          <Image src={profileImgUrl} alt="프로필 사진" fill />
+          <Image
+            src={profileImgUrl}
+            alt="프로필 사진"
+            fill
+            sizes="4.75rem 4.75rem"
+          />
         </S.ProfileImgWrapper>
         <S.UserId>{userId}</S.UserId>
         <S.CatchTitle>{catchCount}마리 포획</S.CatchTitle>

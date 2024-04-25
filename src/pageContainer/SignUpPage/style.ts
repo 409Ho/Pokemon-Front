@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 export const SignUpPageWrapper = styled.div`
   margin: 0 auto;
-  width: 600px;
+  width: 37.5rem;
   height: 100vh;
   background-color: #ff0000;
   display: flex;

@@ -44,25 +44,290 @@ export const PokemonDummyData: PokemonInfoType[] = [
   },
   {
     data: {
-      name: '쥬레곤',
+      name: '골덕',
       image:
-        'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/87.png',
-      number: 87,
+        'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png',
+      number: 55,
       types: [
         {
           type: {
             name: '물',
           },
         },
+      ],
+      flavorText:
+        '강을 더럽힌 사람을 물속으로\n끌어들여 데려간다는\n옛날이야기가 전해져 오고 있다.',
+      genera: '오리포켓몬',
+    },
+  },
+  {
+    data: {
+      name: '골덕',
+      image:
+        'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png',
+      number: 55,
+      types: [
         {
           type: {
-            name: '얼음',
+            name: '물',
           },
         },
       ],
       flavorText:
-        '온몸이 눈처럼 새하얗다.\n추위에 강해 얼음이 떠 있는\n바다도 기운차게 헤엄쳐 다닌다.',
-      genera: '강치포켓몬',
+        '강을 더럽힌 사람을 물속으로\n끌어들여 데려간다는\n옛날이야기가 전해져 오고 있다.',
+      genera: '오리포켓몬',
+    },
+  },
+  {
+    data: {
+      name: '골덕',
+      image:
+        'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png',
+      number: 55,
+      types: [
+        {
+          type: {
+            name: '물',
+          },
+        },
+      ],
+      flavorText:
+        '강을 더럽힌 사람을 물속으로\n끌어들여 데려간다는\n옛날이야기가 전해져 오고 있다.',
+      genera: '오리포켓몬',
+    },
+  },
+  {
+    data: {
+      name: '골덕',
+      image:
+        'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png',
+      number: 55,
+      types: [
+        {
+          type: {
+            name: '물',
+          },
+        },
+      ],
+      flavorText:
+        '강을 더럽힌 사람을 물속으로\n끌어들여 데려간다는\n옛날이야기가 전해져 오고 있다.',
+      genera: '오리포켓몬',
+    },
+  },
+  {
+    data: {
+      name: '골덕',
+      image:
+        'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png',
+      number: 55,
+      types: [
+        {
+          type: {
+            name: '물',
+          },
+        },
+      ],
+      flavorText:
+        '강을 더럽힌 사람을 물속으로\n끌어들여 데려간다는\n옛날이야기가 전해져 오고 있다.',
+      genera: '오리포켓몬',
+    },
+  },
+  {
+    data: {
+      name: '골덕',
+      image:
+        'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png',
+      number: 55,
+      types: [
+        {
+          type: {
+            name: '물',
+          },
+        },
+      ],
+      flavorText:
+        '강을 더럽힌 사람을 물속으로\n끌어들여 데려간다는\n옛날이야기가 전해져 오고 있다.',
+      genera: '오리포켓몬',
+    },
+  },
+  {
+    data: {
+      name: '골덕',
+      image:
+        'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png',
+      number: 55,
+      types: [
+        {
+          type: {
+            name: '물',
+          },
+        },
+      ],
+      flavorText:
+        '강을 더럽힌 사람을 물속으로\n끌어들여 데려간다는\n옛날이야기가 전해져 오고 있다.',
+      genera: '오리포켓몬',
+    },
+  },
+  {
+    data: {
+      name: '골덕',
+      image:
+        'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png',
+      number: 55,
+      types: [
+        {
+          type: {
+            name: '물',
+          },
+        },
+      ],
+      flavorText:
+        '강을 더럽힌 사람을 물속으로\n끌어들여 데려간다는\n옛날이야기가 전해져 오고 있다.',
+      genera: '오리포켓몬',
+    },
+  },
+  {
+    data: {
+      name: '골덕',
+      image:
+        'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png',
+      number: 55,
+      types: [
+        {
+          type: {
+            name: '물',
+          },
+        },
+      ],
+      flavorText:
+        '강을 더럽힌 사람을 물속으로\n끌어들여 데려간다는\n옛날이야기가 전해져 오고 있다.',
+      genera: '오리포켓몬',
+    },
+  },
+  {
+    data: {
+      name: '골덕',
+      image:
+        'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png',
+      number: 55,
+      types: [
+        {
+          type: {
+            name: '물',
+          },
+        },
+      ],
+      flavorText:
+        '강을 더럽힌 사람을 물속으로\n끌어들여 데려간다는\n옛날이야기가 전해져 오고 있다.',
+      genera: '오리포켓몬',
+    },
+  },
+  {
+    data: {
+      name: '골덕',
+      image:
+        'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png',
+      number: 55,
+      types: [
+        {
+          type: {
+            name: '물',
+          },
+        },
+      ],
+      flavorText:
+        '강을 더럽힌 사람을 물속으로\n끌어들여 데려간다는\n옛날이야기가 전해져 오고 있다.',
+      genera: '오리포켓몬',
+    },
+  },
+  {
+    data: {
+      name: '골덕',
+      image:
+        'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png',
+      number: 55,
+      types: [
+        {
+          type: {
+            name: '물',
+          },
+        },
+      ],
+      flavorText:
+        '강을 더럽힌 사람을 물속으로\n끌어들여 데려간다는\n옛날이야기가 전해져 오고 있다.',
+      genera: '오리포켓몬',
+    },
+  },
+  {
+    data: {
+      name: '골덕',
+      image:
+        'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png',
+      number: 55,
+      types: [
+        {
+          type: {
+            name: '물',
+          },
+        },
+      ],
+      flavorText:
+        '강을 더럽힌 사람을 물속으로\n끌어들여 데려간다는\n옛날이야기가 전해져 오고 있다.',
+      genera: '오리포켓몬',
+    },
+  },
+  {
+    data: {
+      name: '골덕',
+      image:
+        'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png',
+      number: 55,
+      types: [
+        {
+          type: {
+            name: '물',
+          },
+        },
+      ],
+      flavorText:
+        '강을 더럽힌 사람을 물속으로\n끌어들여 데려간다는\n옛날이야기가 전해져 오고 있다.',
+      genera: '오리포켓몬',
+    },
+  },
+  {
+    data: {
+      name: '골덕',
+      image:
+        'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png',
+      number: 55,
+      types: [
+        {
+          type: {
+            name: '물',
+          },
+        },
+      ],
+      flavorText:
+        '강을 더럽힌 사람을 물속으로\n끌어들여 데려간다는\n옛날이야기가 전해져 오고 있다.',
+      genera: '오리포켓몬',
+    },
+  },
+  {
+    data: {
+      name: '골덕',
+      image:
+        'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/55.png',
+      number: 55,
+      types: [
+        {
+          type: {
+            name: '물',
+          },
+        },
+      ],
+      flavorText:
+        '강을 더럽힌 사람을 물속으로\n끌어들여 데려간다는\n옛날이야기가 전해져 오고 있다.',
+      genera: '오리포켓몬',
     },
   },
 ];

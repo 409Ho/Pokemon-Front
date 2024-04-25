@@ -16,26 +16,30 @@ const PokemonCard: React.FC<PokemonInfoType> = ({ data }) => (
     <S.PokemonTitleWrapper>
       <S.PokemonNameWrapper>
         <S.PokemonBallImgWrapper>
-          <Image src={몬스터볼} alt="몬스터볼" fill />
+          <Image src={몬스터볼} alt="몬스터볼" fill sizes="1.75rem 1.5625rem" />
         </S.PokemonBallImgWrapper>
         <S.PokemonTitle>{data.name}</S.PokemonTitle>
       </S.PokemonNameWrapper>
       <S.PokemonTitle># {data.number}</S.PokemonTitle>
     </S.PokemonTitleWrapper>
     <S.PokemonImgWrapper>
-      <Image src={data.image} alt="리자몽" fill />
+      <Image
+        src={data.image}
+        alt="리자몽"
+        fill
+        unoptimized
+        sizes="6.75rem 6.75rem"
+      />
     </S.PokemonImgWrapper>
     <S.PokemonTypeWrapper>
-      <PokemonTypeCard
-        type={data.types[0].type.name}
-        sizeDown={true}
-        useFilter={false}
-      />
-      <PokemonTypeCard
-        type={data.types[1].type.name}
-        sizeDown={true}
-        useFilter={false}
-      />
+      {data.types.map((type, index) => (
+        <PokemonTypeCard
+          type={type.type.name}
+          sizeDown={true}
+          useFilter={false}
+          key={index}
+        />
+      ))}
     </S.PokemonTypeWrapper>
   </S.PokemonCartWrapper>
 );

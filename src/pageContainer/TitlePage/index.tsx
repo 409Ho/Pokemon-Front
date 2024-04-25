@@ -17,7 +17,12 @@ const TitlePage = () => (
       <Header />
       <S.TitlePageContent>
         <S.TItleImageWrapper>
-          <Image src={리자몽} alt="타이틀 이미지" fill />
+          <Image
+            src={리자몽}
+            alt="타이틀 이미지"
+            fill
+            sizes="27.4375rem 25rem"
+          />
         </S.TItleImageWrapper>
         <S.ButtonWrapper>
           <PrimaryButton isFill={true} width="29.9375rem">
