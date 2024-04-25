@@ -1,4 +1,11 @@
 import styled from '@emotion/styled';
+import { css } from '@emotion/react';
+
+interface StyleProps {
+  type: string;
+  sizeDown?: boolean;
+  useFilter?: boolean;
+}
 
 const typeColor: { [key: string]: string } = {
   강철: '#6AAED4',
@@ -21,9 +28,9 @@ const typeColor: { [key: string]: string } = {
   풀: '#42C024',
 } as const;
 
-export const TypeCardWrapper = styled.div<{ type: string }>`
-  width: 5rem;
-  height: 1.75rem;
+export const TypeCardWrapper = styled.div<{ styleInfo: StyleProps }>`
+  width: ${({ styleInfo }) => (styleInfo.sizeDown ? '4.6875rem' : ' 5rem')};
+  height: ${({ styleInfo }) => (styleInfo.sizeDown ? '1.5rem' : ' 1.875rem')};
   background-color: black;
   border-radius: 1.25rem;
   color: #fff;
@@ -33,18 +40,22 @@ export const TypeCardWrapper = styled.div<{ type: string }>`
   font-weight: 700;
   padding-left: 0.25rem;
   font-size: 0.9375rem;
-  background-color: ${({ type }) => typeColor[type]};
-  cursor: pointer;
+  background-color: ${({ styleInfo }) => typeColor[styleInfo.type]};
+  cursor: ${({ styleInfo }) => styleInfo.useFilter && 'hover'};
   svg {
     fill: #ffffff;
   }
 
-  :hover {
-    background-color: #ffffff;
-    border: 1px solid ${({ type }) => typeColor[type]};
-    color: ${({ type }) => typeColor[type]};
-    svg {
-      fill: ${({ type }) => typeColor[type]};
-    }
-  }
+  ${({ styleInfo }) =>
+    styleInfo.useFilter &&
+    css`
+      :hover {
+        background-color: #ffffff;
+        border: 1px solid ${typeColor[styleInfo.type]};
+        color: ${typeColor[styleInfo.type]};
+        svg {
+          fill: ${typeColor[styleInfo.type]};
+        }
+      }
+    `}
 `;
