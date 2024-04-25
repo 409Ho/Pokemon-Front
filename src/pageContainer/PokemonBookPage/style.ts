@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const PageWrapper = styled.div`
-  width: 600px;
+  width: 37.5rem;
   height: 100vh;
   background-color: #ffffff;
   margin: 0 auto;
@@ -28,9 +28,9 @@ export const PageTitle = styled.h1`
 `;
 
 export const SearchInputWrapper = styled.div`
-  width: 560px;
-  height: 61px;
-  border-radius: 16px;
+  width: 35rem;
+  height: 3.8125rem;
+  border-radius: 1rem;
   border: 1px solid #d6d6d6;
   padding: 1.25rem 1rem 1.25rem 1rem;
   display: flex;
@@ -42,7 +42,7 @@ export const SearchInputWrapper = styled.div`
 
 export const SearchInput = styled.input`
   width: 25rem;
-  height: 21px;
+  height: 1.3125rem;
   outline: none;
   font-size: 1.125rem;
   border: none;
@@ -62,8 +62,7 @@ export const PokemonTypeWrapper = styled.div`
 `;
 
 export const PokemonCardWrapper = styled.div`
-  width: 550px;
-
+  width: 34.375rem;
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;

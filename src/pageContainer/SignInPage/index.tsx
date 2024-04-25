@@ -11,7 +11,7 @@ const SingInPage = () => (
         <InputForm inputTitle="이메일" width="28.625rem" />
         <InputForm inputTitle="비밀번호" width="28.625rem" />
       </S.ButtonWrapper>
-      <PrimaryButton isFill={true} width="479px">
+      <PrimaryButton isFill={true} width="29.9375rem">
         로그인
       </PrimaryButton>
     </S.ContentWrapper>

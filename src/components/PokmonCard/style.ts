@@ -35,21 +35,21 @@ export const PokemonBallImgWrapper = styled.div`
 `;
 
 export const PokemonTitle = styled.p`
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
 `;
 
 export const PokemonImgWrapper = styled.div`
-  width: 108px;
-  height: 108px;
+  width: 6.75rem;
+  height: 6.75rem;
   overflow: hidden;
   position: relative;
 `;
 
 export const PokemonTypeWrapper = styled.div`
-  width: 156px;
-  height: 24px;
+  width: 9.75rem;
+  height: 1.5rem;
   display: flex;
-  gap: 6px;
+  gap: 0.375rem;
   justify-content: center;
 `;
