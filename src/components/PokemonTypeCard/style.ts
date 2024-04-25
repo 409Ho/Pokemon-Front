@@ -23,7 +23,7 @@ const typeColor: { [key: string]: string } = {
 
 export const TypeCardWrapper = styled.div<{ type: string }>`
   width: 5rem;
-  height: 28px;
+  height: 1.75rem;
   background-color: black;
   border-radius: 1.25rem;
   color: #fff;
