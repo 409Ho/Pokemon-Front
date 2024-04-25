@@ -31,7 +31,7 @@ export const TypeCardWrapper = styled.div<{ type: string }>`
   align-items: center;
   gap: 0.5rem;
   font-weight: 700;
-  padding-left: 0.4375rem;
+  padding-left: 0.25rem;
   font-size: 0.9375rem;
   background-color: ${({ type }) => typeColor[type]};
   cursor: pointer;
