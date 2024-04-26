@@ -2,12 +2,12 @@ import styled from '@emotion/styled';
 
 export const PageWrapper = styled.div`
   width: 100%;
-  height: 100%;
+  height: 100vh;
 `;
 
 export const ContentWrapper = styled.div`
   width: 37.5rem;
-  height: 100vh;
+  height: 100%;
   background-color: red;
   margin: 0 auto;
   display: flex;

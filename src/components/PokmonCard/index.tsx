@@ -25,7 +25,7 @@ const PokemonCard: React.FC<PokemonInfoType> = ({ data }) => (
     <S.PokemonImgWrapper>
       <Image
         src={data.image}
-        alt="리자몽"
+        alt="포켓몬 사진"
         fill
         unoptimized
         sizes="6.75rem 6.75rem"

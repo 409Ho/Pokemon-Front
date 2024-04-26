@@ -10,7 +10,7 @@ export const PokemonCartWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.6875rem;
+  gap: 1.375rem;
   cursor: pointer;
 `;
 export const PokemonTitleWrapper = styled.div`
