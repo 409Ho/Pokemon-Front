@@ -38,28 +38,26 @@ const PokemonBookPage = () => {
     <S.PageWrapper>
       <Header />
       <S.PageContentWrapper>
-        <>
-          <S.PageTitle>포켓몬 도감</S.PageTitle>
-          <S.SearchInputWrapper>
-            <S.SearchInput placeholder="찾고 싶은 포켓몬의 이름을 적어주세요 ." />
-            <S.IconWrapper onClick={() => setOpenFilter(prev => !prev)}>
-              <I.FilterIcon />
-            </S.IconWrapper>
-          </S.SearchInputWrapper>
-        </>
-        {openFilter && (
-          <S.PokemonTypeWrapper>
-            {PokemonTypeArr.map(type => (
-              <PokemonTypeCard type={type} useFilter={true} key={type} />
-            ))}
-          </S.PokemonTypeWrapper>
-        )}
-        <S.PokemonCardWrapper>
-          {PokemonDummyData.map((pokemonInfo, index) => (
-            <PokemonCard data={pokemonInfo.data} key={index} />
-          ))}
-        </S.PokemonCardWrapper>
+        <S.PageTitle>포켓몬 도감</S.PageTitle>
+        <S.SearchInputWrapper>
+          <S.SearchInput placeholder="찾고 싶은 포켓몬의 이름을 적어주세요 ." />
+          <S.IconWrapper onClick={() => setOpenFilter(prev => !prev)}>
+            <I.FilterIcon />
+          </S.IconWrapper>
+        </S.SearchInputWrapper>
       </S.PageContentWrapper>
+      {openFilter && (
+        <S.PokemonTypeWrapper>
+          {PokemonTypeArr.map(type => (
+            <PokemonTypeCard type={type} useFilter={true} key={type} />
+          ))}
+        </S.PokemonTypeWrapper>
+      )}
+      <S.PokemonCardWrapper>
+        {PokemonDummyData.map((pokemonInfo, index) => (
+          <PokemonCard data={pokemonInfo.data} key={index} />
+        ))}
+      </S.PokemonCardWrapper>
     </S.PageWrapper>
   );
 };
