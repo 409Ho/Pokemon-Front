@@ -1,24 +1,13 @@
 import styled from '@emotion/styled';
 
 export const PageWrapper = styled.div`
-  width: 600px;
-  height: 100vh;
+  width: 37.5rem;
+  min-height: 100vh;
   margin: 0 auto;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
-`;
-
-export const ProfileWrapper = styled.div<{ isKing: boolean }>`
-  width: 15.625rem;
-  height: 15.625rem;
-  position: relative;
-  margin-top: ${({ isKing }) => (isKing ? '5px' : '93px')};
-`;
-
-export const IconWrapper = styled.div`
-  margin-top: 3rem;
 `;
 
 export const ImgWrapper = styled.div`
@@ -46,14 +35,6 @@ export const EditProfileButton = styled.button`
   cursor: pointer;
 `;
 
-export const UserInfoWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  margin-top: 1.4375rem;
-  align-items: center;
-`;
-
 export const UserTitle = styled.div`
   width: 6.0625rem;
   height: 1.8125rem;
@@ -72,13 +53,6 @@ export const UserId = styled.p`
   font-weight: 600;
 `;
 
-export const TitleWrapper = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.3125rem;
-`;
-
 export const UserInfoTitle = styled.p`
   font-size: 1.125rem;
   font-weight: 600;
@@ -91,7 +65,6 @@ export const MoveBookButton = styled.button`
   border-radius: 1.5rem;
   border: none;
   background-color: #ff0000;
-  margin: 7.9375rem;
   display: flex;
   gap: 0.4375rem;
   justify-content: center;
@@ -178,4 +151,33 @@ export const ModalTitleWrapper = styled.div`
   flex: 1;
   display: flex;
   justify-content: space-between;
+`;
+
+export const ContentWrapper = styled.div`
+  flex: 1;
+  width: 22.625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+export const ProfileWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+`;
+
+export const Container = styled.div`
+  width: 15.625rem;
+  height: 15.625rem;
+  position: relative;
+`;
+
+export const InfoContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625rem;
+  margin: 1.4375rem 0 6.625rem 0;
 `;
