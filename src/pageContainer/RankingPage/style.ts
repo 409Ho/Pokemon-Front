@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const PageWrapper = styled.div`
-  width: 600px;
+  width: 37.5rem;
   height: 100vh;
   background-color: #ffffff;
   margin: 0 auto;
@@ -11,7 +11,7 @@ export const PageWrapper = styled.div`
 
 export const PageContentWrapper = styled.div`
   flex: 1;
-  padding: 23px 25px 0 25px;
+  padding: 1.4375rem 1.5625rem 0 1.5625rem;
 `;
 
 export const PageTitleWrapper = styled.div`
@@ -19,20 +19,20 @@ export const PageTitleWrapper = styled.div`
 `;
 
 export const subTitle = styled.p`
-  font-size: 16px;
+  font-size: 1rem;
   color: #999999;
   font-weight: 600;
   margin-bottom: 0.3125rem;
 `;
 
 export const Title = styled.h1`
-  font-size: 25px;
+  font-size: 1.5625rem;
   font-weight: 700;
 `;
 
 export const RankCardWrapper = styled.div`
   width: 100%;
-  height: 804px;
+  height: 50.25rem;
   display: flex;
   flex-direction: column;
   gap: 15px;
