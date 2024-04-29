@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const PageWrapper = styled.div`
-  width: 600px;
+  width: 37.5rem;
   height: 100vh;
   margin: 0 auto;
   background-color: #ffffff;
@@ -19,16 +19,16 @@ export const PageContentWrapper = styled.div`
 
 export const TopBall = styled.div`
   width: 100%;
-  height: 410px;
-  border-bottom: 4px solid #000000;
+  height: 25.625rem;
+  border-bottom: 0.25rem solid #000000;
   background-color: #ff0000;
 `;
 
 export const WhiteBall = styled.div`
-  width: 250px;
-  height: 250px;
+  width: 15.625rem;
+  height: 15.625rem;
   position: absolute;
-  border: 4px solid #000000;
+  border: 0.25rem solid #000000;
   border-radius: 100%;
   background-color: #ffffff;
   top: 18.4375rem;
@@ -45,11 +45,11 @@ export const PokemonImgWrapper = styled.div`
 `;
 
 export const PokemonInput = styled.input`
-  width: 414px;
-  height: 86px;
+  width: 25.875rem;
+  height: 5.375rem;
   border: 1px solid #ff0000;
   outline: none;
-  font-size: 24px;
+  font-size: 1.5rem;
   border-radius: 12.5rem;
   margin-top: 14.75rem;
   text-align: center;
@@ -61,12 +61,12 @@ export const PokemonInput = styled.input`
 `;
 
 export const SubmitButton = styled.button`
-  width: 414px;
-  height: 69px;
-  font-size: 24px;
+  width: 25.875rem;
+  height: 4.3125rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #ffffff;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   border: none;
   background-color: #ff0a01;
   margin-top: 2.5rem;
