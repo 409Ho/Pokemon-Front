@@ -32,7 +32,7 @@ export const Title = styled.h1`
 
 export const RankCardWrapper = styled.div`
   width: 100%;
-  height: 50.25rem;
+  height: 43.75rem;
   display: flex;
   flex-direction: column;
   gap: 15px;
