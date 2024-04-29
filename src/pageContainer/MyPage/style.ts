@@ -11,8 +11,8 @@ export const PageWrapper = styled.div`
 `;
 
 export const ProfileWrapper = styled.div<{ isKing: boolean }>`
-  width: 250px;
-  height: 250px;
+  width: 15.625rem;
+  height: 15.625rem;
   position: relative;
   margin-top: ${({ isKing }) => (isKing ? '5px' : '93px')};
 `;
@@ -22,8 +22,8 @@ export const IconWrapper = styled.div`
 `;
 
 export const ImgWrapper = styled.div`
-  width: 250px;
-  height: 250px;
+  width: 15.625rem;
+  height: 15.625rem;
   border-radius: 100%;
   border: none;
   position: relative;
@@ -32,8 +32,8 @@ export const ImgWrapper = styled.div`
 `;
 
 export const EditProfileButton = styled.button`
-  width: 50px;
-  height: 50px;
+  width: 3.125rem;
+  height: 3.125rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -41,23 +41,23 @@ export const EditProfileButton = styled.button`
   border: none;
   border-radius: 100%;
   position: absolute;
-  bottom: 25px;
-  right: 20px;
+  bottom: 1.5625rem;
+  right: 1.25rem;
   cursor: pointer;
 `;
 
 export const UserInfoWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 0.75rem;
   margin-top: 1.4375rem;
   align-items: center;
 `;
 
 export const UserTitle = styled.div`
-  width: 97px;
-  height: 29px;
-  border-radius: 20px;
+  width: 6.0625rem;
+  height: 1.8125rem;
+  border-radius: 1.25rem;
   border: none;
   display: flex;
   justify-content: center;
@@ -68,7 +68,7 @@ export const UserTitle = styled.div`
 `;
 
 export const UserId = styled.p`
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
 `;
 
@@ -76,19 +76,19 @@ export const TitleWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 5px;
+  gap: 0.3125rem;
 `;
 
 export const UserInfoTitle = styled.p`
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 600;
   color: #929292;
 `;
 
 export const MoveBookButton = styled.button`
-  width: 362px;
-  height: 88px;
-  border-radius: 24px;
+  width: 22.625rem;
+  height: 5.5rem;
+  border-radius: 1.5rem;
   border: none;
   background-color: #ff0000;
   margin: 7.9375rem;
@@ -99,7 +99,7 @@ export const MoveBookButton = styled.button`
 `;
 
 export const ButtonTitle = styled.p`
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 600;
   color: #ffffff;
 `;
@@ -119,14 +119,14 @@ export const ModalBackGround = styled.div`
 `;
 
 export const ModalWrapper = styled.div`
-  width: 422px;
-  height: 288px;
+  width: 26.375rem;
+  height: 18rem;
   background-color: #ffffff;
-  border-radius: 16px;
-  font-size: 24px;
+  border-radius: 1rem;
+  font-size: 1.5rem;
   font-weight: 700;
   position: absolute;
-  top: 24.75rem;
+  top: 396px;
   z-index: 2;
   padding: 1.75rem;
   display: flex;
@@ -135,10 +135,10 @@ export const ModalWrapper = styled.div`
 `;
 
 export const ModalSelect = styled.div`
-  width: 175px;
-  height: 175px;
-  border-radius: 16px;
-  font-size: 18px;
+  width: 10.9375rem;
+  height: 10.9375rem;
+  border-radius: 1rem;
+  font-size: 1.125rem;
   color: #999999;
   border: 1px solid #999999;
   cursor: pointer;
@@ -165,7 +165,7 @@ export const ModalSelect = styled.div`
 
 export const FlexBox = styled.div`
   display: flex;
-  gap: 16px;
+  gap: 1rem;
 `;
 
 export const CancleIcon = styled.div`
