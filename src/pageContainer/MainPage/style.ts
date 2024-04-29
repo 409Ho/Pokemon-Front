@@ -38,8 +38,8 @@ export const WhiteBall = styled.div`
 `;
 
 export const PokemonImgWrapper = styled.div`
-  width: 150px;
-  height: 150px;
+  width: 9.375rem;
+  height: 9.375rem;
   overflow: hidden;
   position: relative;
 `;
