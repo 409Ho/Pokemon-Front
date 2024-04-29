@@ -6,12 +6,7 @@ export const PageWrapper = styled.div`
   background-color: #ffffff;
   margin: 0 auto;
   display: flex;
-  overflow: scroll;
   flex-direction: column;
-
-  ::-webkit-scrollbar {
-    display: none;
-  }
 `;
 
 export const PageContentWrapper = styled.div`
@@ -63,11 +58,16 @@ export const PokemonTypeWrapper = styled.div`
 
 export const PokemonCardWrapper = styled.div`
   width: 34.375rem;
+  height: fit-content;
+
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 1.25rem;
-  background-color: #ffffff;
+  background-color: red;
+
+  overflow: scroll;
 
   ::-webkit-scrollbar {
     display: none;
