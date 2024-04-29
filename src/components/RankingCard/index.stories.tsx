@@ -11,11 +11,13 @@ type Story = StoryObj<typeof RankingCard>;
 
 export const Primary: Story = {
   args: {
-    isKing: true,
-    ranking: 1,
-    profileImgUrl:
-      'https://i.namu.wiki/i/vjgQc_4iFL9x8_HBZGm1gnPZTaFGGfhWesoHG90cksz39YRCbUGDPlVEKfdgI-6ZWFqpK3bEb25E8m5DxmMVNQ.webp',
-    catchCount: '1000',
-    userId: '나는야 김경수',
+    data: {
+      isKing: true,
+      ranking: 1,
+      profileImgUrl:
+        'https://i.namu.wiki/i/vjgQc_4iFL9x8_HBZGm1gnPZTaFGGfhWesoHG90cksz39YRCbUGDPlVEKfdgI-6ZWFqpK3bEb25E8m5DxmMVNQ.webp',
+      catchCount: '1000',
+      userId: '나는야 김경수',
+    },
   },
 };

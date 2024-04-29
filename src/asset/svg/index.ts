@@ -6,3 +6,4 @@ export * from './ArrowIcon';
 export * from './PenIcon';
 export * from './BookIcon';
 export * from './ImgIcon';
+export * from './TrophyIcon';
