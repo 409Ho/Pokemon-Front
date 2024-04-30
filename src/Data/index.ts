@@ -1,2 +1,2 @@
-export * from './PokemonData';
+export * from './PokemonDummyData';
 export * from './RankingData';
