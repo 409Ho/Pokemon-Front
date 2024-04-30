@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 import { useState } from 'react';
 
-import 리자몽 from '@/asset/png/리자몽.png';
+import Dragon from '@/asset/png/Dragon.png';
 
 import { Header } from '@/components';
 
@@ -20,7 +20,7 @@ const MainPage = () => {
       <S.PageContentWrapper>
         <S.WhiteBall>
           <S.PokemonImgWrapper>
-            <Image src={리자몽} alt="포켓몬 사진" fill unoptimized />
+            <Image src={Dragon} alt="포켓몬 사진" fill unoptimized />
           </S.PokemonImgWrapper>
         </S.WhiteBall>
         <S.TopBall></S.TopBall>

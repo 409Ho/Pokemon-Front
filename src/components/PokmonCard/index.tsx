@@ -6,7 +6,7 @@ import { PokemonInfoType } from '@/types';
 
 import { PokemonTypeCard } from '@/components';
 
-import 몬스터볼 from '@/asset/png/몬스터볼.png';
+import MonsterBall from '@/asset/png/MonsterBall.png';
 
 import * as S from './style';
 import React from 'react';
@@ -16,7 +16,12 @@ const PokemonCard: React.FC<PokemonInfoType> = ({ data }) => (
     <S.PokemonTitleWrapper>
       <S.PokemonNameWrapper>
         <S.PokemonBallImgWrapper>
-          <Image src={몬스터볼} alt="몬스터볼" fill sizes="1.75rem 1.5625rem" />
+          <Image
+            src={MonsterBall}
+            alt="몬스터볼"
+            fill
+            sizes="1.75rem 1.5625rem"
+          />
         </S.PokemonBallImgWrapper>
         <S.PokemonTitle>{data.name}</S.PokemonTitle>
       </S.PokemonNameWrapper>
