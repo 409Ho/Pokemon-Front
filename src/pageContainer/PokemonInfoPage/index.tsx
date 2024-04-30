@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 
-import { PokemonDummyData } from '@/data';
+import { PokemonDummyData } from '@/Test';
 
 import * as I from '@/asset';
 import * as S from './style';

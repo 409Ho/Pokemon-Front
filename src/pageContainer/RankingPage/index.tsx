@@ -1,7 +1,7 @@
 'use client';
 
 import { Header, RankingCard } from '@/components';
-import { RankingArr } from '@/data';
+import { RankingArr } from '@/Test';
 
 import * as I from '@/asset';
 import * as S from './style';
