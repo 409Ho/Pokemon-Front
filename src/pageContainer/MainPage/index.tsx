@@ -12,7 +12,6 @@ import * as S from './style';
 
 const MainPage = () => {
   const [inputValue, setInputValue] = useState('');
-  console.log('테스트입니다.');
 
   return (
     <S.PageWrapper>

@@ -12,7 +12,6 @@ import * as S from './style';
 const MyPage = () => {
   const [modalOpen, setModalOpen] = useState(false);
 
-  const testRank = 2;
   return (
     <S.PageWrapper>
       {modalOpen && (
@@ -39,7 +38,7 @@ const MyPage = () => {
       <Header />
       <S.ContentWrapper>
         <S.ProfileWrapper>
-          {testRank === 1 && <I.CrownIcon />}
+          <I.CrownIcon />
           <S.Container>
             <S.ImgWrapper>
               <Image
