@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 export const PageWrapper = styled.div`
   width: 37.5rem;
-  height: 100%;
+  height: 100vh;
   margin: 0 auto;
   background-color: #ffffff;
   display: flex;
