@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 
-import 리자몽 from '@/asset/png/리자몽.png';
+import Dragon from '@/asset/png/Dragon.png';
 
 import { Header, PrimaryButton } from '@/components';
 
@@ -18,7 +18,7 @@ const TitlePage = () => (
       <S.TitlePageContent>
         <S.TItleImageWrapper>
           <Image
-            src={리자몽}
+            src={Dragon}
             alt="타이틀 이미지"
             fill
             sizes="27.4375rem 25rem"

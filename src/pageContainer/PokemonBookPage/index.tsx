@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 import { PokemonTypeCard, Header } from '@/components';
 import { PokemonType } from '@/types';
-import { PokemonDummyData } from '@/data';
+import { PokemonDummyData } from '@/Test';
 
 import * as S from './style';
 import * as I from '@/asset';
